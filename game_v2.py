@@ -21,7 +21,7 @@ def random_predict(number:int=1) -> int:
             break
     return(count)
 
-print(f"Количество попыток угвдвть число 10: {random_predict(10)}")
+print(f"Количество попыток угадать число 10: {random_predict(10)}")
 
 def score_game(random_predict) -> int:
     """За какое количество попыток угадает число из 1000 попыток
@@ -43,8 +43,8 @@ def score_game(random_predict) -> int:
     print(f'Ваш алгоритм угадывает число в среднем за: {score} попыток')
     return(score)
 
-
-score_game(random_predict)
+if __name__ == '__main__':
+    score_game(random_predict)
 
 
 
