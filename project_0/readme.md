@@ -27,17 +27,17 @@
 Выполняем задания
 
 ### Краткая информация о данных
-
+...
 :arrow_up:[к оглавлению] (https://github.com/daurbek0v/daurbekov/blob/main/project_0/readme.md#Оглавление)
 
 ### Этапы работы над проектом
-
+...
 :arrow_up:[к оглавлению] (https://github.com/daurbek0v/daurbekov/blob/main/project_0/readme.md#Оглавление)
 
 ### Результат
-
+...
 :arrow_up:[к оглавлению] (https://github.com/daurbek0v/daurbekov/blob/main/project_0/readme.md#Оглавление)
 
 ### Выводы
-
+...
 :arrow_up:[к оглавлению] (https://github.com/daurbek0v/daurbekov/blob/main/project_0/readme.md#Оглавление)
