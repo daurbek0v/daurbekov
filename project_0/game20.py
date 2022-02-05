@@ -13,16 +13,19 @@ def random_predict(number:int=1) -> int:
     count = 0
     min = 1
     max = 101
+    
+    predict_number = np.random.randint(min, max) # случайное число в диапазоне
+    
     while True:
-        count += 1
-        predict_number = np.random.randint(min, max)
-        number = round((min+max) / 2)
+        count += 1 # счетчик попыток
+    
+        number = round((min+max) / 2) # округленное среднее значение диапазона
     
         if number > predict_number:
-            max = number
+            max = number # двигаем максимальную границу
     
         elif number < predict_number:
-            min = number
+            min = number # двигаем минимальную границу
 
         else:
             print(f"Компьютер угадал число за {count} попыток. Это число {number}")
