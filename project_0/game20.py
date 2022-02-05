@@ -1,10 +1,10 @@
 import numpy as np
 
-def random_predict(number:int=1) -> int:
-    """Рандомно угадываем число
+def random_predict(number) -> int:
+    """Высчитываем рандомное число
 
     Args:
-        number (int, optional): Загаданное число. Defaults to 1.
+        number (int, optional): Искомое число. Defaults to 1.
 
     Returns:
         int: Число попыток
@@ -14,17 +14,17 @@ def random_predict(number:int=1) -> int:
     min = 1
     max = 101
     
-    predict_number = np.random.randint(min, max) # случайное число в диапазоне
+    random_number = np.random.randint(min, max) # случайное число в диапазоне
     
     while True:
         count += 1 # счетчик попыток
     
         number = round((min+max) / 2) # округленное среднее значение диапазона
     
-        if number > predict_number:
+        if number > random_number:
             max = number # двигаем максимальную границу
     
-        elif number < predict_number:
+        elif number < random_number:
             min = number # двигаем минимальную границу
 
         else:
